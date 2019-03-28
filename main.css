@@ -1,0 +1,226 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+html,
+body {
+    height: 100%;
+    background: rgb(228, 224, 224);
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+main .top {
+    height: 150px;
+    background: rgb(83, 86, 88);
+    margin-top: 20px;
+    color: rgb(247, 242, 242);
+    text-align: center;
+}
+
+.top h1,
+.top p {
+    position: relative;
+    top: 60px;
+}
+
+.top h1 {
+    font-size: 35px;
+}
+
+.top p {
+    margin-top: 10px;
+    color: rgb(150, 145, 145);
+}
+
+.top div {
+    width: 180px;
+    height: 180px;
+    position: relative;
+    left: 60px;
+    top: -20px;
+}
+
+.top div img {
+    width: 180px;
+    height: 180px;
+    border: 1px solid rgb(105, 102, 102);
+    border-radius: 50%;
+}
+
+.clear::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.left {
+    float: left;
+    width: 300px;
+    background: rgb(235, 235, 235);
+}
+
+.left .contact-way {
+    margin: 150px 20px 20px 20px;
+}
+
+.contact-way div {
+    border-bottom: 1px solid rgb(177, 174, 174);
+}
+
+.contact-way a {
+    color: rgb(75, 73, 73);
+    padding: 10px;
+    border-left: 1px solid rgb(201, 193, 193);
+}
+
+.contact-way span {
+    padding: 10px;
+    color: rgb(15, 159, 241);
+}
+
+.contact-way div span,
+.contact-way div a {
+    display: inline-block;
+}
+
+.skill {
+    background: rgb(100, 180, 233);
+    padding-bottom: 20px;
+}
+
+.skill h3 {
+    padding: 20px;
+    font-size: 25px;
+    color: #fff;
+}
+
+.skill .javas {
+    padding: 10px 20px;
+    color: #fff;
+}
+
+.skill .javas-aside {
+    height: 4px;
+    background: rgb(137, 209, 241);
+    margin: 10px 20px;
+    border-radius: 2px;
+}
+
+.skill .javas-aside a {
+    display: block;
+    height: 4px;
+    background: #fff;
+    border-radius: 2px;
+}
+
+.rest {
+    padding: 20px;
+    height: 260px;
+}
+
+.rest h3 {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.rest div {
+    border-bottom: 1px solid rgb(201, 193, 193);
+}
+
+.rest a {
+    color: rgb(75, 73, 73);
+    padding: 10px;
+    border-left: 1px solid rgb(201, 193, 193);
+}
+
+.rest span {
+    padding: 10px;
+    color: rgb(15, 159, 241);
+}
+
+.rest div span,
+.rest div a {
+    display: inline-block;
+}
+
+.right {
+    float: right;
+    width: 700px;
+    background: #fff;
+}
+
+.massage {
+    padding: 30px;
+    border-bottom: 1px solid rgb(201, 193, 193);
+}
+
+.massage h3 {
+    font-size: 20px;
+    color: rgb(15, 159, 241);
+}
+
+.massage p {
+    font-size: 16px;
+    margin: 20px;
+    line-height: 20px;
+}
+
+.massage p span {
+    color: red;
+}
+
+.my-item {
+    padding: 30px;
+    border-bottom: 1px solid rgb(201, 193, 193);
+}
+
+.my-item>h3 {
+    color: rgb(15, 159, 241);
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.my-item .item-1 {
+    margin: 50px;
+}
+
+.my-item .item-1 h3 {
+    font-size: 18px;
+}
+
+.item-1 ul {
+    margin: 20px 20px 20px 40px;
+}
+
+.my-item span {
+    color: red;
+}
+
+.item-1 li a {
+    color: rgb(75, 73, 73);
+    font-size: 14px;
+}
+
+.page {
+    padding: 30px;
+}
+
+.page h3 {
+    font-size: 20px;
+    color: rgb(15, 159, 241);
+}
+
+.page p {
+    margin: 20px;
+}
