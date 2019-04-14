@@ -66,7 +66,7 @@ main .top {
 
 .left {
     float: left;
-    width: 300px;
+    width: 310px;
     background: rgb(235, 235, 235);
 }
 
@@ -80,12 +80,12 @@ main .top {
 
 .contact-way a {
     color: rgb(75, 73, 73);
-    padding: 5px;
+    padding: 10px;
     border-left: 1px solid rgb(201, 193, 193);
 }
 
 .contact-way span {
-    padding: 8px;
+    padding: 10px;
     color: rgb(15, 159, 241);
 }
 
@@ -156,7 +156,7 @@ main .top {
 
 .right {
     float: right;
-    width: 700px;
+    width: 690px;
     background: #fff;
 }
 
