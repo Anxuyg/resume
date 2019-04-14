@@ -66,7 +66,7 @@ main .top {
 
 .left {
     float: left;
-    width: 310px;
+    width: 320px;
     background: rgb(235, 235, 235);
 }
 
@@ -156,7 +156,7 @@ main .top {
 
 .right {
     float: right;
-    width: 690px;
+    width: 680px;
     background: #fff;
 }
 
